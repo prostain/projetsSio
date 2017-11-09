@@ -1,0 +1,15 @@
+ date >> projInfo.txt; wc -l *.cpp *.h >> projInfo.txt; grep -e class *.h | wc -l >> projInfo.txt; echo -n " class">> projInfo.txt; grep -e :: *.cpp |wc -l >> projInfo.txt; echo -n " methode">> projInfo.txt;
+
+jeudi 21 septembre 2017, 11:43:42 (UTC+0200)
+  98 application.cpp
+   8 main.cpp
+  59 person.cpp
+  59 vectPerson.cpp
+  21 application.h
+  24 person.h
+ 269 total
+2
+ class19
+ methode
+
+find . -name "*.o" |xargs rm 

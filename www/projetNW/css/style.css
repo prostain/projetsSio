@@ -1,0 +1,114 @@
+/* YOUR CUSTOM STYLES */
+
+
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view, 
+.full-height body .view {
+    height: 50%; 
+} 
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view,
+    .full-height body .view {
+        height: 700px; 
+    } 
+}
+
+@media (min-width: 1000px) and (max-width: 1000px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view,
+    .full-height body .view {
+        height: 770px; 
+    } 
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+/* Carousel*/
+
+.flex-center {
+    color: #fff;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+
+body
+{
+    
+    background-image: url('../img/green.jpg');
+    background-color:;
+    background-repeat:repeat;
+    background-position: center;
+
+
+}
+
+main
+{
+    background-color: #cccccc;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-right: 2%;
+    border-left: 2%;
+
+}
+
+header {
+    max-height: 0%;
+
+}
+
+footer
+{
+    text-align: center;
+}
+
+.row
+{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.size-man
+{
+
+    margin-left: 5%;
+}
+
+.footer
+{
+    margin-top:;
+
+}
